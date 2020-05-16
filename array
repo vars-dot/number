@@ -10,10 +10,13 @@ max=arr[0]
 for j in range[1,n]:
   if arr[i]>max:
     max=arr[i]
-print(max)
+
 
 min=arr[0]
 for k in range[1,n]:
   if arr[i]<min:
     min=arr[i]
+
+print("the largest no is:",max)
+print("the smallest no is:",min)
     
