@@ -4,17 +4,17 @@ n=int(input("enter the length")
   for i in range(n):
   x= int(input("enter the values:")
   arr.append(x)
-print(x)
+print(arr)
 
 max=arr[0]
-for j in range[1,n]:
-  if arr[i]>max:
+for j in range(1,n):
+  if (arr[i]>max):
     max=arr[i]
 
 
 min=arr[0]
-for k in range[1,n]:
-  if arr[i]<min:
+for k in range(1,n):
+  if (arr[i]<min):
     min=arr[i]
 
 print("the largest no is:",max)
